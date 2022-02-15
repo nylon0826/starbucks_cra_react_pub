@@ -9,22 +9,22 @@ class MainComponent extends Component {
                     <div className="container">
                     <h2 className="hide">메인 섹션 Carry Merry</h2>
                     <span className="img img1">
-                    <img src="./images/m_2021_chiristmas2_slogan.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/m_2021_chiristmas2_slogan.png" } alt=""/>
                     </span>
                     <span className="star star1">
-                    <img src="./images/2021_chiristmas2_bg_left.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/2021_chiristmas2_bg_left.png" } alt=""/>
                     </span>
                     <span className="star star2">
-                    <img src="./images/2021_chiristmas2_bg_right.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/2021_chiristmas2_bg_right.png" } alt=""/>
                     </span>
                     <span className="img img2">
-                    <img src="./images/./2021_christmas2_drink.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/./2021_christmas2_drink.png" } alt=""/>
                     </span>
                     <span className="img img3">
-                    <img src="./images/./2021_christmas2_drink2.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/./2021_christmas2_drink2.png" } alt=""/>
                     </span>
                     <span className="img img4">
-                    <img src="./images/./2021_christmas2_drink3.png" alt=""/>
+                    <img src={ process.env.PUBLIC_URL + "/images/./2021_christmas2_drink3.png" } alt=""/>
                     </span>
                     <span className="img img5">
                     <a href="#" className="view-btn">자세히보기</a>
@@ -39,8 +39,8 @@ class MainComponent extends Component {
                         <div className="notice-title">
                             <h2>
                             <span>
-                                <img src="./images/notice_ttl.png" alt="Notice Title"/>
-                                <img src="./images/icon_board_speaker.png" alt="Notice Title"/>
+                                <img src={ process.env.PUBLIC_URL + "/images/notice_ttl.png" } alt="Notice Title"/>
+                                <img src={ process.env.PUBLIC_URL + "/images/icon_board_speaker.png" } alt="Notice Title"/>
                             </span>
                             </h2>
                         </div>
@@ -56,7 +56,7 @@ class MainComponent extends Component {
                         </div>
                         {/* <!-- 공지사항 더보기 목록버튼 --> */}
                         <div className="notice-more">
-                            <a href="#" title="Notice More View"><img src="./images/btn_notice_plus.png" alt="More View"/></a>
+                            <a href="#" title="Notice More View"><img src={ process.env.PUBLIC_URL + "/images/btn_notice_plus.png" } alt="More View"/></a>
                         </div>
                         </div>
                         <div className="promotion-box">
@@ -71,11 +71,11 @@ class MainComponent extends Component {
                         <div className="slide-container">
                         <div className="slide-view">
                             <ul className="slide-wrap clearfix">
-                            <li className="slide slide3"><img src="./images/slide-03.jpg" alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
-                            <li className="slide slide1 addCurrent"><img src="./images/slide-01.jpg" alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
-                            <li className="slide slide2"><img src="./images/slide-02.jpg" alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
-                            <li className="slide slide3"><img src="./images/slide-03.jpg" alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
-                            <li className="slide slide1 addCurrent"><img src="./images/slide-01.jpg" alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
+                            <li className="slide slide3"><img src={ process.env.PUBLIC_URL + "/images/slide-03.jpg" } alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
+                            <li className="slide slide1 addCurrent"><img src={ process.env.PUBLIC_URL + "/images/slide-01.jpg" } alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
+                            <li className="slide slide2"><img src={ process.env.PUBLIC_URL + "/images/slide-02.jpg" } alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
+                            <li className="slide slide3"><img src={ process.env.PUBLIC_URL + "/images/slide-03.jpg" } alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
+                            <li className="slide slide1 addCurrent"><img src={ process.env.PUBLIC_URL + "/images/slide-01.jpg" } alt=""/><span><a href="#" className="view-btn" title="자세히 보기">자세히 보기</a></span></li>
                             </ul>
                         </div>
                         {/* <!-- 좌우화살버튼 --> */}
@@ -96,10 +96,10 @@ class MainComponent extends Component {
                         <!-- 있으면 true 반환 -->
                         <!-- 없으면 false 반환 --> */}
                         <div className="page-btn-box">
-                            <span><a href="#" className="play-btn on" title="play & stop"><img src="./images/main_prom_stop.png" alt=""/></a></span>
-                            <span><a href="#" className="page-btn" title="page1"><img src="./images/main_prom_on.png" alt=""/></a></span>
-                            <span><a href="#" className="page-btn" title="page1"><img src="./images/main_prom_off.png" alt=""/></a></span>
-                            <span><a href="#" className="page-btn" title="page1"><img src="./images/main_prom_off.png" alt=""/></a></span>
+                            <span><a href="#" className="play-btn on" title="play & stop"><img src={ process.env.PUBLIC_URL + "/images/main_prom_stop.png" } alt=""/></a></span>
+                            <span><a href="#" className="page-btn" title="page1"><img src={ process.env.PUBLIC_URL + "/images/main_prom_on.png" } alt=""/></a></span>
+                            <span><a href="#" className="page-btn" title="page1"><img src={ process.env.PUBLIC_URL + "/images/main_prom_off.png" } alt=""/></a></span>
+                            <span><a href="#" className="page-btn" title="page1"><img src={ process.env.PUBLIC_URL + "/images/main_prom_off.png" } alt=""/></a></span>
                         </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ class MainComponent extends Component {
                     <div className="gap">
                     {/* <!-- 실제컨텐츠(로고) --> */}
                     <div className="content">
-                        <h2><img src="./images/rewards-logo.png" alt="logo"/></h2>
+                        <h2><img src={ process.env.PUBLIC_URL + "/images/rewards-logo.png" } alt="logo"/></h2>
                     </div>
                     </div>
                     </div>
@@ -157,12 +157,12 @@ class MainComponent extends Component {
                     <div className="container">
                     <div className="left">
                     <div className="wrap">
-                        <img src="./images/2021_chrsitmas_bean.png" alt="크리스마스 블랜드 이미지"/>
+                        <img src={ process.env.PUBLIC_URL + "/images/2021_chrsitmas_bean.png" } alt="크리스마스 블랜드 이미지"/>
                     </div>
                     </div>
                     <div className="right">
                     <div className="wrap">
-                        <h2><img src="./images/2021_chrsitmas_bean_txt.png" alt="크리스마스 블랜드 텍스트"/></h2>
+                        <h2><img src={ process.env.PUBLIC_URL + "/images/2021_chrsitmas_bean_txt.png" } alt="크리스마스 블랜드 텍스트"/></h2>
                     
                     <p><a href="#" className="more-view-btn" title="자세히 보기">자세히 보기</a></p>
                     </div>
@@ -174,7 +174,7 @@ class MainComponent extends Component {
                     <div className="container">
                     <div className="title">
                     <h2>
-                        <img src="./images/reserve_christmas_bean_title_211018.png" alt="Reserve Merry"/>
+                        <img src={ process.env.PUBLIC_URL + "/images/reserve_christmas_bean_title_211018.png" } alt="Reserve Merry"/>
                     </h2>
                     <p>
                         <a href="#" className="more-view-btn" title="자세히 보기">자세히 보기</a>
@@ -185,38 +185,38 @@ class MainComponent extends Component {
                 <section id="section6">
                     <div className="container">
                     <div className="left">
-                    <h2><img src="./images/fav_prod_txt01.png" alt="Pick Your"/></h2>
-                    <h3><img src="./images/fav_prod_txt02.png" alt="다양한 메뉴를"/></h3>
+                    <h2><img src={ process.env.PUBLIC_URL + "/images/fav_prod_txt01.png" } alt="Pick Your"/></h2>
+                    <h3><img src={ process.env.PUBLIC_URL + "/images/fav_prod_txt02.png" } alt="다양한 메뉴를"/></h3>
                     <p>
                         <a href="#" className="more-view-btn" title="자세히 보기">자세히 보기</a>
                     </p>
                     </div>
                     <div className="right">
-                    <img src="./images/2021_christmas2_fav.png" alt="Christmas Card"/>
+                    <img src={ process.env.PUBLIC_URL + "/images/2021_christmas2_fav.png" } alt="Christmas Card"/>
                     </div>
                     </div>
                 </section>
                 <section id="section7">
                     <div className="container">
                     <div className="left">
-                    <h2><img src="./images/reserve_text_pc.png" alt="Reserve Magazine"/></h2>
+                    <h2><img src={ process.env.PUBLIC_URL + "/images/reserve_text_pc.png" } alt="Reserve Magazine"/></h2>
                     <p>
                         <a href="#" className="more-view-btn" title="자세히 보기">자세히 보기</a>
                     </p>
                     </div>
                     <div className="right">
-                    <img src="./images/reserve_visual_pc.png" alt="Reserve Visual"/>
+                    <img src={ process.env.PUBLIC_URL + "/images/reserve_visual_pc.png" } alt="Reserve Visual"/>
                     </div>
                     </div>
                 </section>
                 <section id="section8">
                     <div className="container">
                     <div className="left">
-                    <span><img src="./images/store_exp_img01.png" alt="Store Exp Img"/></span>
+                    <span><img src={ process.env.PUBLIC_URL + "/images/store_exp_img01.png" } alt="Store Exp Img"/></span>
                     </div>
                     <div className="right">
-                    <h2><img src="./images/store_txt01.png" alt="스타벅스를 가까이에서 경험해 보세요!"/></h2>
-                    <h3><img src="./images/store_txt02.png" alt="차별화된 커피경험을..."/></h3>
+                    <h2><img src={ process.env.PUBLIC_URL + "/images/store_txt01.png" } alt="스타벅스를 가까이에서 경험해 보세요!"/></h2>
+                    <h3><img src={ process.env.PUBLIC_URL + "/images/store_txt02.png" } alt="차별화된 커피경험을..."/></h3>
                     <p>
                         <a href="#" className="more-view-btn" title="자세히 보기">자세히 보기</a>
                     </p>

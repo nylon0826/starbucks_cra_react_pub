@@ -64,12 +64,12 @@ class FooterComponent extends Component {
                         </div>
                         <div className="middle">
                         <div className="wrap">
-                            <span><a href="#" title=""><img src="./images/footer_award23.jpg" alt=""/></a></span>
-                            <span><a href="#" title=""><img src="./images/footer_award24.jpg" alt=""/></a></span>
-                            <span><a href="#" title=""><img src="./images/footer_award25.jpg" alt=""/></a></span>
-                            <span><a href="#" title=""><img src="./images/footer_award26.jpg" alt=""/></a></span>
-                            <span><a href="#" title=""><img src="./images/footer_award27.jpg" alt=""/></a></span>
-                            <span><a href="#" title=""><img src="./images/footer_award28.jpg" alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award23.jpg" } alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award24.jpg" } alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award25.jpg" } alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award26.jpg" } alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award27.jpg" } alt=""/></a></span>
+                            <span><a href="#" title=""><img src={ process.env.PUBLIC_URL + "/images/footer_award28.jpg" } alt=""/></a></span>
                         </div>
                         </div>
                         <div className="bottom">
